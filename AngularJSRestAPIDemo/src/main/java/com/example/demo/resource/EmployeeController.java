@@ -45,5 +45,7 @@ public class EmployeeController {
 		return repository.findAll();
 	}
 	
-	
+	public String testCommit() {
+		return "Test Commit on 2019-11-14";
+	}
 }
